@@ -1,0 +1,36 @@
+* {
+  font-variant: small-caps;
+}
+.selector{
+  margin-top:  20vh;
+  margin-left:  10vh;
+  /* border: 2px solid black; */
+  height: 30vh;
+  width: 60vw;
+}
+button{
+  margin-top: 15vh;
+  margin-left: 0.5rem;
+  height: 8vh;
+  width:  12vw;
+  border:  2px solid black;
+}
+#gray{
+  background-color: gray;
+}
+#black{
+  background-color: black;
+}
+#Blue{
+  background-color: Blue;
+}
+#Purple{
+  background-color: Purple;
+}
+p {
+  margin-left: 10vh;
+  font-size: large;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check ODD EVEN Number</title>
+</head>
+<body>
+  <div class="fields">
+    <form>
+      <input type = "number" class = 'numberinfo' placeholder="Enter the number">
+      <input type = 'button' class="Submit" value = 'CheckEvenOdd' onclick = "checkoddeven()">
+    </form>
+  </div>
+  <script>
+   function checkoddeven(){
+    let n = document.querySelector('.numberinfo').value
+    let result = document.querySelector('.fields') 
+    if (n % 2 == 0){
+     result.textContent = "Even Number"  
+    }else{
+     result.textContent = "Odd Number"
+    }
+   }
+  </script>
+</body>
+</html>

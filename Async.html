@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Programs</title>
+</head>
+<body>
+<h1>Coffee and code </h1>
+ <button id ='stop'>stop</button>
+</body>
+<script>
+    setTimeout(()=>{console.log("Supradip")}, 2000)//its a function that use webapi and its not an internal part 
+     //differense between setTimeout and setInterval is setTimeout doing a job in some interval in a single time and setInterval doing the same job again again in some interval 
+     //change the name after 3 second 
+     const namechange = function(){
+        document.querySelector('h1').innerHTML="Chai aur code"
+     } 
+    const stopped = setTimeout(namechange,3000);
+    //how to stop the settimeout function 
+    //its called cleartimeout
+   document.querySelector('#stop').addEventListener('click',()=>{
+    clearTimeout(stopped);
+    console.log("stopped");
+   })
+
+</script>
+</html>
