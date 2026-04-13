@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Programs</title>
+</head>
+<body>
+<h1>SetInterval and javascript </h1>
+<button id="Start">Start</button>
+<button id ='stop'>stop</button>
+<span></span>
+</body>
+<script>
+    let Interval
+  document.querySelector('#Start').addEventListener('click',()=>{
+    let name =function(){
+        console.log('jai javascript')
+    }
+    Interval = setInterval(name, 2000)
+  })
+  document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(Interval)
+  })
+</script>
+</html>
