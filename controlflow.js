@@ -1,7 +1,7 @@
 i = 701
 if (i > 700) console.log("Executed");
 
-const month = 24;
+const month = 2;
 switch (month) {
   case 1:
     console.log("Month is january");
