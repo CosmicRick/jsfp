@@ -16,6 +16,7 @@ console.log(deep)
 console.log(deep.encryptpassword());
 console.log(deep.changeusername());
 //new class 
+
 class admin{
     constructor(dbpass, name, stats) {
         this.dbpass = dbpass
